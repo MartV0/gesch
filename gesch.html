@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script>
+		function button_aan1(){
+				document.getElementById('button1').style.background="black";
+		}
+		function button_uit1(){
+				document.getElementById('button1').style.background="#778899";
+		}
+
+		function button_aan2(){
+				document.getElementById('button2').style.background="black";
+		}
+		function button_uit2(){
+				document.getElementById('button2').style.background="#778899";
+		}
+
+		function button_aan3(){
+				document.getElementById('button3').style.background="black";
+		}
+		function button_uit3(){
+				document.getElementById('button3').style.background="#778899";
+		}
+
+		function button_aan4(){
+				document.getElementById('button4').style.background="black";
+		}
+		function button_uit4(){
+				document.getElementById('button4').style.background="#778899";
+		}
+
+		function button_aan5(){
+				document.getElementById('button5').style.background="black";
+		}
+		function button_uit5(){
+				document.getElementById('button5').style.background="#778899";
+		}
+
+		function show_answers(){
+			document.getElementById('antwoord1').innerHTML='Antwoord 1: Amerika, Engeland en Frankrijk bezitten het Westelijk deel van Duitsland en de Sovjet-Unie bezit het Oostelijk deel van Duitsland.';
+			document.getElementById('antwoord2').innerHTML='Antwoord 2: Het Westelijke deel had als systeem het kapitalisme en het Oostelijk deel had als systeem het communisme.';
+			document.getElementById('antwoord3').innerHTML='Antwoord 3: De Westelijke staat werd de BRD genoemd en de Oostelijke staat werd de DDR genoemd.';
+			document.getElementById('antwoord4').innerHTML='Antwoord 4: Amerika en de Sovjet-Unie maakten steeds meer atoomwapens. Met die atoomwapens konden ze de wereld vele malen vernietigen. ';
+		}
+
+		function button_klik1(){
+			document.getElementById('title1').scrollIntoView(true);
+		}
+
+		function button_klik2(){
+			document.getElementById('title2').scrollIntoView(true);
+		}
+
+		function button_klik3(){
+			document.getElementById('title3').scrollIntoView(true);
+		}
+
+		function button_klik4(){
+			document.getElementById('title4').scrollIntoView(true);
+		}
+
+		function button_klik5(){
+			document.getElementById('title5').scrollIntoView(true);
+		}
+
+	</script>
+
+	<style>
+		h4{
+			font-family: Georgia, serif;
+			font-size: 16px;
+		}
+
+		h1{
+			/*margin-left: 140px;*/
+			font-family: Georgia, serif;
+		}
+
+		#title1{
+			/*margin-left:140px;*/
+			margin-top: 103px;
+		}
+
+		.tekst{
+			/*margin-left:140px;*/
+		}
+
+		.button{
+			width: 120px;
+			height: 53px;
+			background: #778899;
+			border: 2px solid black;
+		}
+
+		#button1{
+			position: absolute;
+			top: 20px;
+			left: 160px;
+		}
+
+		#button2{
+			position: absolute;
+			top: 20px;
+			left: 300px;
+		}
+
+		#button3{
+			position: absolute;
+			top: 20px;
+			left: 440px;
+		}
+
+		#button4{
+			position: absolute;
+			top: 20px;
+			left: 580px;
+		}
+
+		#button5{
+			position: absolute;
+			top: 20px;
+			left: 720px;
+		}
+
+		#button_vak{
+			position: absolute;
+			top: 10px;
+			left: 150px;
+			width: 700px;
+			height: 73px;
+			background:#778899;
+			border: 2px solid black;
+		}
+
+		#logo{
+			top: 10px;
+			left: 10px;
+			position: absolute;
+		}
+
+		.button_tekst{
+			color: white;
+			text-align: left;
+			top:-14px;
+			left:5px;
+			right:10px;
+			position: absolute;
+		}
+
+		#button_tekst3{
+			color: white;
+			text-align: left;
+			top:-14px;
+			left:5px;
+			right:5px;
+			position: absolute;
+			font-size: 13px;
+		}
+
+		.plaatje{
+		}
+
+		#tekst_ruimte{
+			top: 103px;
+			margin-left: 140px;
+			width:1000px;
+			height:10000px;
+			/*border: 2px solid black;*/
+		}
+
+	</style>
+
+	<title>De koude oorlog</title>
+
+</head>
+
+
+<body>
+	<img id='logo' src='https://www.a1facts.com/wp-content/uploads/2016/11/Cold-War-Facts-7.jpg' height="73" width="129">
+</img>
+
+	<div id='button_vak'> </div>
+
+	<div id='button1' class='button' onmouseover="button_aan1()" onmouseout="button_uit1()" onmousedown="button_klik1()">
+		<h4 class='button_tekst'>Dagboek fragmenten</h4>
+	</div>
+
+
+	<div id='button2' class='button' onmouseover="button_aan2()" onmouseout="button_uit2()" onmousedown="button_klik2()">
+		<h4 class='button_tekst'>Spotprenten</h4>
+	</div>
+
+	<div id='button3' class='button' onmouseover="button_aan3()" onmouseout="button_uit3()" onmousedown="button_klik3()">
+		<h4 id='button_tekst3'>Foto's en bronteksten + oefenvragen </h4>
+	</div>
+
+	<div id='button4' class='button' onmouseover="button_aan4()" onmouseout="button_uit4()" onmousedown="button_klik4()">
+		<h4 class='button_tekst'>Informatieve video</h4>
+	</div>
+
+	<div id='button5' class='button' onmouseover="button_aan5()" onmouseout="button_uit5()" onmousedown="button_klik5()">
+		<h4 class='button_tekst'>Quiz</h4>
+	</div>
+
+<div id='tekst_ruimte'>
+
+	<h1 id='title1'>Dagboekfragmenten</h1>
+	<h2 class='tekst'><b>Dagboekfragment van een Amerikaanse soldaat tijdens de oorlog in Vietnam</b></h2>
+	<h4 class='tekst'><i>April 1969 - Vietnam</i></h4>
+	<h4 class='tekst'><i>Daar lig je dan, huiverend in je bed. Nou ja bed… het lijkt er niet eens op. Angst, spanning en verdriet overheersen. Bij elk geluid kijk ik op, om te kijken wat het is en waar het vandaan komt. Ik ben hierheen gekomen met maar één doel, namelijk: voorkomen dat het communisme verder verspreidt. In het begin was ik moedig, net zoals mijn maten. Maar nu is dat anders. Vanaf het moment dat ook een groot deel van de Zuid-Vietnamese bevolking zich tegen ons keerde, gaat het helemaal mis. Ik heb er gewoon geen vertrouwen meer in, maar ondanks dat blijf ik doorvechten, doorvechten voor Amerika en alle andere tegenstanders van het communisme. Het was vandaag een zware dag, net zoals alle anderen. Ik was vandaag de aangewezen persoon om me met de chemische middelen bezig te houden. Ik moest de taak van een van mijn beste maten overnemen, namelijk die van James. Hij is de dag hiervoor geraakt door een kogel. Ik stond ernaast, maar ik kon nog net op tijd wegduiken. Ik ben er nog steeds helemaal ondersteboven van, maar ja dat hoort nou eenmaal bij het soldatenleven! Maar om terug te komen op de chemische middelen… Operatie ‘Ranch Hand’ staat op het punt te beginnen. Daarom was ik vandaag een van de soldaten die alle voorbereidingen moest treffen. Ik heb voordat ik begon met de voorbereidingen pas gehoord hoe gevaarlijk dat Agent Orange eigenlijk is. Ik ben er stiekem wel een beetje van geschrokken, maar dat heb ik natuurlijk niet laten blijken, want dat kan gewoon niet als je soldaat bent van het Amerikaanse leger. Dan ben je volgens de generaal niet moedig genoeg meer, en dat wil ik te allen tijde voorkomen. Maar goed, Agent Orange is een codenaam voor een ontbladeringsmiddel. Wij willen dit middel gebruiken om de bladeren van de bomen en planten af te halen, zodat wij makkelijker door de jungle heen kunnen komen en de Noord-Vietnamezen en de Vietcong die bomen en planten niet meer kunnen gebruiken in hun guerrillatechnieken. Ook willen we er zo voor zorgen dat de akkers verwoest worden, zodat er dus problemen komen met hun voedselvoorziening. Ik ben dus met dat Agent Orange in de weer geweest. Het was zeker geen pretje. Ik moet nog altijd oppassen voor kogels en bommen. Ik ben er gewoon een keertje klaar mee! Morgen moet ik weer verder met de voorbereidingen van operatie ‘Ranch Hand’, en het duurt niet lang meer of de operatie gaat van start. Ik kijk er stiekem wel naar uit. Nu kunnen we de Noord-Vietnamezen en de Vietcong lekker uitlachen. Ook al zit het gemis van mijn beste maat nog steeds wel hoog. Bij deze wil ik je bedanken James, voor alles wat je voor Amerika hebt gedaan. Je bent en blijft voor altijd een topper! </i></h4>
+	<h4 class='tekst'><i>Knipper, knipper, daar gaat het licht weer. Nou ik moet maar weer eens opschieten met schrijven, want de lichten moeten zo uit. Dat is ook nodig, want we moeten weer vroeg opstaan en uitgerust zijn, voor zover dat kan… Omdat we natuurlijk wel weer paraat moeten staan! Nu ik erover nadenk, heb ik eigenlijk best wel veel geluk dat ik meehelp met de voorbereidingen voor de operatie. Ik kan gewoon slapen en uitrusten, terwijl veel soldaten aan het front dat niet eens kunnen, want de oorlog gaat ook hier in Vietnam gewoon dag en nacht door. Ik hoop dat mijn medesoldaten me morgenavond nog in dit bed aantreffen en dat ik zoals altijd weer in dit boekje zit te schrijven. Daar gaan we ook echt alles aan doen. Morgen is weer een nieuwe dag en ik ga er samen met mijn maten alles aan doen om ervoor te zorgen, dat het communisme zich niet verder verspreidt!! </i></h4>
+	<h4 class='tekst'><i>Bronvermelding:</i></h4>
+	<a href='https://nl.wikipedia.org/wiki/Agent_Orange' target='_blank'><h4 class='tekst'><i>-	Onbekend. 22 maart 2006. Agent Orange. Geraadpleegd op 10 mei 2018.</i></h4></a>
+	<a href='https://en.wikipedia.org/wiki/Operation_Ranch_Hand' target='_blank'><h4 class='tekst'><i>-	Enwiki, E. 4 juli 2003. Operation Ranch Hand. Geraadpleegd op 10 mei 2018.</i></h4></a>
+	<a href='https://nl.wikipedia.org/wiki/Vietnamoorlog' target='_blank'><h4 class='tekst'><i>-	Waerth. 19 oktober 2003. Vietnamoorlog. Geraadpleegd op 10 mei 2018.</i></h4></a>
+
+
+
+	<h1 id='title2'>Spotprenten</h1>
+	<h4 class='tekst'></h4>
+
+
+	<h1 id='title3'>Foto's en bronteksten met oefenvragen</h1>
+	<h4 class='tekst'><a href='https://tiogatours.nl/voorpret/infotheek/geschiedenis/amerika/1945--de-conferentie-van-potsdam/'>Bron 1 kreeg 17 punten in checklist: </a></h4>
+	<img class='plaatje' src='https://tiogatours.nl/dynamic/img/geschiedenis/amerika/1945-conferentie-van-potsdam-2.1772.c712.jpg'></img>
+	<h4 class='tekst'>De conferentie van Potsdam was de conferentie waarbij werd beslist hoe het verder moest gaan met Europa en Duitsland na de 2de wereldoorlog en voornamelijk hoe de grenzen verdeeld zouden worden. In deze conferentie wordt afgesproken dat Duitsland wordt gedemilitariseerd, gedenazificeerd en gedemocratiseerd. Alle nazi’s en oorlogsmisdadigers worden vervolgd. De nazi partij wordt opgeheven. En het Duitse leger wordt dramatisch verkleind. Verder moet Duitsland herstelbetalingen betalen. En de belangrijkste afspraak van alles was dat Duitsland in vieren werd verdeeld. Groot-Brittannië, De Verenigde Staten, Frankrijk en de Sovjet-Unie kregen allemaal een stuk. De Sovjet-Unie kreeg het oostelijke deel, Frankrijk het deel wat grensde aan Frankrijk, Groot-Brittannië het deel wat aan Nederland grensde, en Amerika het deel wat aan Oostenrijk grensde. Berlijn werd ook in vieren verdeeld. De reden hiervoor was omdat Hitler daar zat met zijn regering. Echter Berlijn zat midden in Oost-Duitsland van de Sovjet-Unie. Dit betekende dat het deel wat van Amerika, Frankrijk en Engeland was afgesloten van de buitenwereld. Stalin en De Sovjet-Unie wilde natuurlijk heel Berlijn. En in de hoop dat het Oostelijke deel zich zou overgeven sloot Stalin de stroom en het schone water af. Amerika gaf de stad echter eten vanuit de lucht. Stalin besefte dat het doelloos was en stopte de blokkade. Dit was een van de eerste conflicten in de koude oorlog.</h4>
+
+	<h4 class='tekst'> <a href='https://kunst-en-cultuur.infonu.nl/biografie/54856-michail-gorbatsjov.html'>Bron 2 kreeg ook 17 punten in checklist: </a></h4>
+	<img class='plaatje' src='http://res.publicdomainfiles.com/pdf_view/18/13505317815459.jpg'></img>
+	<h4 class='tekst'>Dit is een foto van een nucleaire raket basis op Cuba. De rakketen zijn van Rusland. De foto is gemaakt door een spion vliegtuig van Amerika. De Cubacrisis begon toen Fidel Castro een communistische staat maakte van Cuba. De VS wilde geen communistische staat zo dicht bij ze dus bereiden ze een geheime invasie voor. In 1961 begon die invasie met 1300 soldaten. Ze werden gelijk gestopt en de meeste gaven zich over. Castro besefte dat Amerika hun wilde binnenvallen en dus ging hij naar een bondgenoot op zoek: De Sovjet-Unie. De VS riep een embargo uit over Cuba. Op 1962 22 oktober gaf Kennedy een speech op live tv dat de Sovjet-Unie rakketen op Cuba had geplaatst en dat dit een dreiging was voor de vrede. Hij zei dat er een blokkade om Cuba werd neergezet om de agressie uit Cuba te stoppen. Ook vroeg hij aan de Sovjet-Unie om zich zo snel mogelijk terug te trekken. Na 13 dagen trok de Sovjet-Unie zich terug met zijn wapens, en ze beloofde Cuba nooit meer aan te vallen. De VS beloofde ook Cuba niet aan te vallen. Later werd nog bekent dat de VS ook had beloofd om zijn rakketen uit Turkije te halen. Omdat dit niet gelijk bekent was leek VS de overduidelijke winnaar van deze crisis.</h4>
+
+	<h4 class='tekst'><a href='https://www.historischnieuwsblad.nl/nl/artikel/6548/gorbatsjov-en-het-einde-van-de-sovjet-unie.html'>Bron 3 kreeg 16 punten in checklist:</a></h4>
+	<img class='plaatje' src='https://upload.wikimedia.org/wikipedia/commons/6/66/Reagan_and_Gorbachev_hold_discussions.jpg'></img>
+	<h4 class='tekst'>In 1985 werd Michael Gorbatsjov door de communistische partij aangewezen als de nieuwe machthebber in de Sovjet-Unie. Gorbatsjov wilde De Sovjet-Unie hervormen omdat het land achterliep op het westen. De planeconomie werkte niet goed en er was veel corruptie. Er moest verandering in komen. Hij liet een beperkte vorm van markteconomie met kleine particulier bedrijven. Ook zorgde hij voor een politieke hervorming die voor meer democratie zou zorgen. De communistische partij zou niet de enige partij zijn. In 1987 (foto) sloot hij een deal met de Amerikaanse president Reagan over de beperking van bepaalde nucleaire wapens. In 1989 verklaarde Gorbatsjov dat de twee grootmachten geen vijanden meer waren. De koude oorlog was voorbij. Hierna ging op 9 november  1989 de Berlijnse muur open. In europa waren veel oost-blok landen ongelukkig en veel communistische machtshebbers werden van hun troon gestoten. Voormalige Sovjetrepublieken verklaarden zich onafhankelijk waaronder Wit-Rusland, Estland, Letland, Litouwen, Oekraine en Georgie. In 1991 werd de Sovjet-Unie officieel opgeheven. </h4>
+
+
+	<h1 id='title4'>Informatieve video</h1>
+	<a href='https://www.schooltv.nl/video/het-begin-van-de-koude-oorlog-bijna-oorlog-tussen-oost-en-west/#q=koude%20oorlog' target='_blank'><h4 class='tekst'>Klik hier voor de video!</h4></a>
+	<h2 class='tekst'><b>Kijkersvragen bij de video:</b></h2>
+	<h4 class='tekst'><b>Vraag 1:</b> Welke landen bezitten het Westelijk deel van Duitsland, en welke landen bezitten het Oosten?</h4>
+	<h4 class='tekst'><b>Vraag 2:</b>Welk systeem was er in het Westelijk deel en welk systeem was er in het Oostelijk deel?</h4>
+	<h4 class='tekst'><b>Vraag 3:</b>Hoe wordt de staat genoemd die de West-Duitsers oprichten? En wat was de naam van de staat die de Oost-Duitsers oprichten?</h4>
+	<h4 class='tekst'><b>Vraag 4:</b> Wat deden Amerika en de Sovjet-Unie om ervoor te zorgen dat de een niet sterker werd dan de ander?</h4>
+	<button class='tekst' onclick="show_answers()">Klik hier om de antwoorden te laten zien!</button>
+	<h4 class='tekst' id='antwoord1'></h4>
+	<h4 class='tekst' id='antwoord2'></h4>
+	<h4 class='tekst' id='antwoord3'></h4>
+	<h4 class='tekst' id='antwoord4'></h4>
+
+	<h1 id='title5'>De Quiz</h1>
+	<a href='https://www.onlinequizcreator.com/nl/koude-oorlog-quiz/quiz-368728' target='_blank'><h4 class='tekst'>Klik hier voor de quiz!</h4></a>
+
+</div>
+
+
+
+
+</body>
+</html>
